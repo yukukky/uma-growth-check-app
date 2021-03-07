@@ -1,0 +1,29 @@
+{
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.lintOnSave": true,
+  "python.linting.flake8Args": [
+    "--max-line-length",
+    "88",
+    "--ignore=E203,E266,E501,W503"
+  ],
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "python.pythonPath": ".venv/bin/python",
+  "python.pipenvPath": "pipenv",
+  "python.venvPath": ".venv",
+  "python.languageServer": "Microsoft",
+  "python.autoComplete.extraPaths": [
+    ".venv/lib/python3.8/site-packages"
+  ],
+  "python.testing.pytestArgs": [
+    "tests",
+    "-o",
+    "junit_family=xunit1"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.nosetestsEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestPath": "pipenv run pytest"
+}

@@ -1,0 +1,12 @@
+[requires]
+python_version = "3.8"
+
+[packages]
+flask = "*"
+
+[dev-packages]
+black = "*"
+flake8 = "*"
+
+[pipenv]
+allow_prereleases = true
